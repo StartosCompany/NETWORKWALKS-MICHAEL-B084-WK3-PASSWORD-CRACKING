@@ -25,7 +25,7 @@ I recovered passwords from two instructor-provided training PDFs and verified bo
 6. Installed Johnny in Kali using `sudo apt install johnny`, configured `/usr/sbin/john`, and loaded `hash1.txt` through Open password file (PASSWD format).
 7. Started a new attack. Johnny displayed the same recovered password.
 
-![John recovery result](screenshots/01_PM1_John_Result.png)
+![John recovery result](01_PM1_John_Result.png)
 
 ## Troubleshooting
 
@@ -35,8 +35,8 @@ John initially reported no password hashes loaded. After cleaning the filename p
 
 The Kali file dialog extended beyond the visible VM window. Switching VirtualBox to full screen allowed me to select the file.
 
-![Johnny configured in Kali](screenshots/04_Johnny_John_Path.png)
-![Hash loaded in Johnny](screenshots/05_Johnny_Hash_Loaded.png)
+![Johnny configured in Kali](04_Johnny_John_Path.png)
+![Hash loaded in Johnny](05_Johnny_Hash_Loaded.png)
 
 ## PM2 steps
 
@@ -45,15 +45,15 @@ The Kali file dialog extended beyond the visible VM window. Switching VirtualBox
 3. Used the built-in 100-password list. The tool found `password1` after 91 attempts.
 4. Opened the original PDF with the recovered password.
 
-![PM2 hash extraction](screenshots/06_PM2_Hash_Extraction.png)
-![PM2 recovery result](screenshots/07_PM2_Password_Result.png)
+![PM2 hash extraction](06_PM2_Hash_Extraction.png)
+![PM2 recovery result](07_PM2_Password_Result.png)
 
 ## Evidence status
 
 The opened PM1 and PM2 images are included below. The final Johnny password display was confirmed during the practical session; its screenshot is not included. The loaded-hash screenshot above is not evidence of the final Johnny recovery by itself.
 
-![PM1 opened PDF](screenshots/09_PM1_PDF_Opened.png)
-![PM2 opened PDF](screenshots/10_PM2_PDF_Opened.png)
+![PM1 opened PDF](09_PM1_PDF_Opened.png)
+![PM2 opened PDF](10_PM2_PDF_Opened.png)
 
 The red-padlock image in `screenshots/11_Additional_Flag_Unassigned.png` contains a different flag. Its source PDF and recovery method have not been established, so no additional task completion is claimed.
 
